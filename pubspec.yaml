@@ -1,0 +1,26 @@
+name: shopping_app
+description: A simple shopping app demo with welcome, auth, and home screens.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Suwannaphum
+      fonts:
+        - asset: assets/fonts/Suwannaphum-Regular.ttf

@@ -1,0 +1,1 @@
+Place a local image here named local_sample.png
